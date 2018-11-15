@@ -15,7 +15,7 @@ def oxford_comma(array)
   array.delete_at(-2)
   main = array.join(", ")
   
-  return "#{main} + #{and_} + #{last}"
+  return "#{main}" + "#{and_}" + "#{last}"
   
  
   
