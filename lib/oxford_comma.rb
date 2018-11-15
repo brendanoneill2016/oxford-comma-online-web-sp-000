@@ -12,7 +12,7 @@ def oxford_comma(array)
   last = array[-1]
   and_ = array[-2]
   delete_1 = array.delete_at(-1)
-  delete_2 = delete_1.delete_at(-2)
+  delete_2 = delete_1.delete_at(-1)
   main = delete_2.join(", ")
   
   return "#{main}" + "#{and_}" + "#{last}"
