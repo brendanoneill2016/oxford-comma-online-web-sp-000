@@ -16,13 +16,6 @@ def oxford_comma(array)
   join = array.join(", ") 
   return "#{join}" + ", " + "#{and_}" + " " + "#{last}"
   
- 
-  
-
-
-
-
-
   end
 
 end
