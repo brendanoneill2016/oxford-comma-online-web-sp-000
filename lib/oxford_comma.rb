@@ -14,7 +14,7 @@ def oxford_comma(array)
   array.pop
   array.pop
   join = array.join(", ") 
-  return "#{join}" + "#{and_}" + "#{last}"
+  return "#{join}" + " " "#{and_}" + "#{last}"
   
  
   
