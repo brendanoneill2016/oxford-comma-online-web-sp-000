@@ -11,7 +11,7 @@ def oxford_comma(array)
   array.insert(-2,'and')
   last = array[-1]
   and_ = array[-2]
-  delate_1 = array.delete_at(-1)
+  delete_1 = array.delete_at(-1)
   delete_2 = delete_1.delete_at(-2)
   main = delete_2.join(", ")
   
