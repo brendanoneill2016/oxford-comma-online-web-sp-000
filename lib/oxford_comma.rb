@@ -9,7 +9,12 @@ def oxford_comma(array)
    
  elsif array.count > 2
   array.insert(-2,'and')
+  last = array[-1]
+  and_ = array[-2]
+  array.
+  
   array.join(", ")
+  
 
 
 
